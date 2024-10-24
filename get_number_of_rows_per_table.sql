@@ -7,4 +7,4 @@ FROM
 WHERE 
     schemaname = 'public'
 ORDER BY 
-    n_live_tup DESC;
+    n_live_tup, relname DESC;
